@@ -1,0 +1,55 @@
+
+  body {  
+
+    font-family: "Poiret One", cursive;  
+    background: #3494e6; 
+    background: -webkit-linear-gradient(  
+      to right,  
+      #ec6ead,  
+      #3494e6  
+    );  
+    background: linear-gradient(  
+      to right,  
+      #ec6ead,  
+      #3494e6  
+    ); 
+  } 
+  .flex-container {
+      display:inline-flex;
+  }
+  
+  
+  .flex-container > div {
+      
+    background-color: #f1f1f1;
+    margin: 10px;
+  height: 380px;
+  width: 310px;
+  }
+  #imgid{
+      width: 310px;
+      height: 250px;
+  }
+p{
+    font-size: 20px;
+    margin-left: 107px;
+}
+button{
+    padding: 15px;
+    width: 150px;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 5px;
+}
+ button:hover{
+  background-color: green;
+  color: white;
+} 
+/* button:active{
+  background-color: indigo;
+} */
+
+button.selected{
+  color:white;
+  background-color: green;
+}
